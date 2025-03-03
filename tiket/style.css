@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Container untuk form dan hasil */
+.form-container, .output-container {
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* Tabel di dalam form dan output */
+.inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.button-container {
+    text-align: center;
+}
+
+/* Styling tombol */
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
